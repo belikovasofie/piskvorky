@@ -5,15 +5,18 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  overflow: hidden;
+  width: 370px;
   margin: 50px auto 50px auto;
   background-color: #283e50;
+  border-radius: 10px 10px 0 0;
 }
 h1 {
   font-family: lobster;
   font-size: 50px;
   color: #ffff;
   text-align: center;
+  margin-bottom: 5px;
 }
 p {
   font-family: sans-serif;
@@ -21,6 +24,7 @@ p {
   color: #ffff;
   text-align: center;
   line-height: 1.6;
+  padding: 0 10px 10px 10px;
 }
 a {
   text-align: center;
@@ -33,9 +37,15 @@ a {
   font-family: sans-serif;
   margin-bottom: 1px;
 }
+.pravidla:hover {
+  background-color: #1cbb96;
+}
 .zacit-hrat {
   background-color: #0197f6;
   padding: 10px;
   color: #ffff;
   font-family: sans-serif;
+}
+.zacit-hrat:hover {
+  background: #0090e9;
 }
