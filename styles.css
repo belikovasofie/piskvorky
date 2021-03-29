@@ -1,6 +1,12 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(180deg, #615dad 0%, #ffc8da 100%);
-  background-size: 100vw 100vh;
+  min-height: 100vh;
 }
 .container {
   display: flex;
