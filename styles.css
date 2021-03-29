@@ -79,3 +79,8 @@ figure {
 .img {
   margin-top: 50px;
 }
+.icon {
+  filter: invert(100%);
+  width: 1em;
+  height: 1em;
+}
