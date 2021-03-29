@@ -78,9 +78,15 @@ figure {
 }
 .img {
   margin-top: 50px;
+  max-width: 100%;
 }
 .icon {
   filter: invert(100%);
   width: 1em;
   height: 1em;
+}
+@media screen and (min-width: 650px) {
+  .img {
+    display: flex;
+  }
 }
