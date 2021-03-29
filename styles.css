@@ -16,11 +16,8 @@ body {
   border-radius: 10px 10px 0 0;
   color: #ffff;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
-}
-
-.container.index {
   display: flex;
   flex-direction: column;
 }
@@ -39,14 +36,16 @@ a {
   text-align: center;
   text-decoration: none;
 }
-.pravidla {
+.pravidla,
+.uvodnistranka {
   background-color: #1fcca4;
   padding: 10px;
   color: #ffff;
   font-family: sans-serif;
   margin-bottom: 1px;
 }
-.pravidla:hover {
+.pravidla,
+.uvodnistranka:hover {
   background-color: #1cbb96;
 }
 .zacit-hrat {
@@ -64,4 +63,19 @@ a {
 }
 li {
   margin-bottom: 10px;
+}
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+figure img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+figure {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.img {
+  margin-top: 50px;
 }
