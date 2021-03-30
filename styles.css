@@ -17,7 +17,6 @@ body {
   border-radius: 10px 10px 0 0;
   color: #ffff;
   font-family: sans-serif;
-  font-size: 17px;
   line-height: 1.6;
   display: flex;
   flex-direction: column;
@@ -27,7 +26,7 @@ h1 {
   font-family: lobster;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 5px;
+  margin: 30px;
 }
 p {
   text-align: center;
@@ -59,15 +58,20 @@ a {
   background: #0090e9;
 }
 .obsah {
-  padding: 0 30px;
+  padding: 0 10px;
   line-height: 1.2;
 }
+ol {
+  padding: 10px 40px 0px 60px;
+}
 li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  padding-left: 10px;
 }
 figcaption {
   font-style: italic;
   text-align: center;
+  font-size: 16px;
 }
 figure img {
   max-width: 100%;
@@ -75,11 +79,11 @@ figure img {
 }
 figure {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .img {
-  margin-top: 50px;
   max-width: 100%;
+  padding: 30px 20px;
 }
 .icon {
   filter: invert(100%);
@@ -90,12 +94,15 @@ figure {
   .img {
     display: flex;
     flex-wrap: wrap;
+    padding: 40px 0;
   }
   figure {
     flex-basis: 50%;
+    margin-bottom: 0;
     padding: 15px;
   }
   .container.wide {
     width: 750px;
+    font-size: 1.2em;
   }
 }
