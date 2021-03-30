@@ -7,6 +7,7 @@
 body {
   background: linear-gradient(180deg, #615dad 0%, #ffc8da 100%);
   min-height: 100vh;
+  margin: 0;
 }
 .container {
   overflow: hidden;
