@@ -44,7 +44,7 @@ a {
   font-family: sans-serif;
   margin-bottom: 1px;
 }
-.pravidla,
+.pravidla:hover,
 .uvodnistranka:hover {
   background-color: #1cbb96;
 }
