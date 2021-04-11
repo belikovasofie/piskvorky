@@ -90,6 +90,11 @@ figure {
   width: 1em;
   height: 1em;
 }
+
+.hra h2 {
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 800px) {
   .img {
     display: flex;
