@@ -141,8 +141,10 @@ figure {
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
 }
 button {
+  display: block;
   width: 10%;
-  aspect-ratio: 1/1;
+  padding-top: 9.5%;
+  position: relative;
   background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid rgb(20, 20, 20);
 }
