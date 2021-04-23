@@ -140,15 +140,17 @@ figure {
   flex-wrap: wrap;
   box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
 }
-button {
+.board__field {
   display: block;
   width: 10%;
   padding-top: 9.5%;
   position: relative;
   background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid rgb(20, 20, 20);
+  transition: background-size 0.15s;
+  background-size: 0em;
 }
-button:hover {
+.board__field:hover {
   background-color: rgba(255, 255, 255, 0.4);
   cursor: pointer;
 }
@@ -168,4 +170,16 @@ button:hover {
     width: 750px;
     font-size: 1.2em;
   }
+}
+.board__field--circle {
+  background-image: url('images/circle.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.5em;
+}
+.board__field--cross {
+  background-image: url('images/cross.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.5em;
 }
